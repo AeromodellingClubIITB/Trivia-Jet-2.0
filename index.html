@@ -15,28 +15,49 @@
     .mt {
           margin-top: 0vh;
     }
-    .imgsrc {
+    @media screen and (min-width: 480px)  {
+      .imgsrc {
           position: fixed;
           left: 0%;
           width: 100%;
-          
-
-    }
-    .division {
+          object-fit: cover;
+        }
+      .division {
           position: relative;
           background-image: url("https://toppng.com/uploads/preview/plane-sky-art-flight-clouds-11570427410hnmujcxlkd.jpg");
           background-repeat: no-repeat;
           background-size: cover;
+      }
+    }
+    .imgsrc {
+          left: 0%;
+          width: 100%;
+          object-fit: cover;
+        }
+      .division {
+          background-image: url("https://toppng.com/uploads/preview/plane-sky-art-flight-clouds-11570427410hnmujcxlkd.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+    @media screen and (min-width: 480px) {
+      .card {
+        width: 36rem; 
+        height: 60vh;
+      }
+     }
+    .card {
+          width: auto;
+          height: auto;
     }
   </style>
   <body>
     <div class="container-fluid">
       <img src="space.jpg" class="imgsrc">
-      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br>
       <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
-          <div class="card" style="width: 36rem; height: 60vh; background-color: rgba(73, 31, 31, 0.15);">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="card" style="background-color: rgba(73, 31, 31, 0.15);">
             <div class="card-body">
               <h2 class="card-title" style="color: whitesmoke; text-align: center; font-family: sans-serif;"><big>Trivia-Jet 2.0</big></h2>
               <p class="card-text" style="color: whitesmoke; text-align: center; font-family: sans-serif;">
@@ -51,11 +72,11 @@
             </div>
           </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-md-4"></div>
       </div>
       <br><br><br><br><br><br><br>
     </div>
-    <div class="card bg-dark text-white" style="background-color: white;">
+    <div class="card bg-dark text-white" style="background-color: white; height: 15vh;">
       <div class="card-img-overlay">
         <br><br><br>
       </div>
@@ -96,7 +117,6 @@
                     </div>
                     <div class="col-md-4"></div>
                     <div class="col-md-2"></div>
-                    <div class="col-12"></div>
                     <div class="col-12">
                       <button type="submit" class="btn btn-primary" style="background: rgb(0,0,0); color: white; font-family: sans-serif;">Submit</button>
                     </div>
