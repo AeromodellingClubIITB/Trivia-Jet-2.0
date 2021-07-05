@@ -11,24 +11,6 @@
       .mt {
           margin-top: 0vh!important;
       }
-      .imgsrc {
-          position: fixed;
-          left: 0%;
-          width: 100%;
-          object-fit: contain;
-        }
-      .imgsrc2 {
-          position: relative;
-          left: 0%;
-          width: 100%;
-          object-fit: contain;
-      }
-      .imgsrc3 {
-          position: relative;
-          left: 0%;
-          width: 100%;
-          object-fit: contain;
-      }
       .card {
         width: 36rem; 
         height: 60vh;
@@ -37,104 +19,60 @@
       .mt {
           margin-top: 0vh;
       }
-      .imgsrc {
-          left: 0%;
-          width: 100%;
-          object-fit: cover;
-      }
-      .imgsrc2 {
-          left: 0%;
-          width: 100%;
-          object-fit: contain;
-      }
-      .imgsrc3 {
-          left: 0%;
-          width: 100%;
-          object-fit: contain;
-      }
       .card {
           width: auto;
           height: auto;
     }
   </style>
-  <body>
-    <div class="container-fluid">
-      <img src="trivia.png" class="imgsrc">
-      <br><br><br><br><br><br>
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-          <div class="card" style="background-color: rgba(73, 31, 31, 0.15);">
-            <div class="card-body">
-              <h2 class="card-title" style="color: black; text-align: center; font-family: sans-serif;"><big>Trivia-Jet 2.0</big></h2>
-              <p class="card-text" style="color: black; text-align: center; font-family: sans-serif;">
-                <big>We are pleased to announce and invite you to TriviaJet 2.0, an online aviation quiz. The quiz will consist of general questions related to space and aviation, 
-                nothing specifically related to Aerospace courses. So, we welcome everyone to join us and have fun with the interesting quiz rounds and questions!
-                The TriviaJet quiz consists of two levels, the Prelims and the Finals.
-                Prelims will be a short MCQ based quiz, wherein you can compete with everyone to stand out and get a chance to enter the labyrinth of questions we have created for you.
-                </big>
-                <br>
-                <big><strong>Scroll Down to access registration form.</strong></big>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4"></div>
-      </div>
-      <br><br><br><br><br><br><br>
-    </div>
-    <div class="card bg-dark text-white" style="height: 15vh;">
-      <div class="card-img-overlay">
-        <br><br><br>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <img src='bg2.jpg' class="imgsrc2" alt="please check your internet connection">
-    </div>
-    <div class="card bg-dark text-white" style="height: 15vh;">
-      <div class="card-img-overlay">
-        <br><br><br>
-      </div>
-    </div>
-    <div class='division'>
+  <body style="background-image: url('trivia.png');">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-9">
-            <img src="bg3.png" class="imgsrc3" alt="please check your internet connection">
-          </div>
-          <div class="col-md-3" style="height: 100%;">
-            <div class="card mb-3 mt" style="max-width: 1080px; background-color: rgb(255,255,255); height: 100%;">
-              <div class="row g-0" style="height: 100vh;">
-                <div class="col-md-12" style="background-color: rgba(73, 31, 31, 0.15); height: 100%;">
+          <div class="col-md-2"></div>
+          <div class="col-md-7">
+            <div class="card mb-3 mt" style="max-width: 540px; background-color: rgba(73, 31, 31, 0.15);">
+              <div class="row g-0">
+                <div class="col-md-6"><img src='bg3.png' alt='check your internet connections'></div>
+                <div class="col-md-6">
                   <div class="card-body">
                     <h3 class="card-title" style="color: black;">Registration for Trivia-Jet 2021</h3>
                     <form class="row g-3" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTDlkVWOXmapuVUor0rLo7pqWNOthMXp4N2yhDAP3jJg0nSw/formResponse"
                     target="_self" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0"
                     data-last-entry="1" data-is-first-page="true">
                       <div class="col-md-6">
-                        <label for="entry_1941432870" class="form-label" style="color: black; font-family: sans-serif;">Full name</label>
+                        <label for="entry_1941432870" class="form-label" style="color: black; font-family: sans-serif;">Team name</label>
                         <input type="text" class="form-control" id="inputEmail4" name="entry_1941432870">
                       </div>
                       <div class="col-md-6">
-                        <label for="entry_272327025" class="form-label" style="color: black; font-family: sans-serif;">Whatsapp No.</label>
+                        <label for="entry_272327025" class="form-label" style="color: black; font-family: sans-serif;">No. of members</label>
                         <input type="number" class="form-control" id="inputPassword4" name="entry_272327025">
                       </div>
                       <br><br>
                       <div class="col-12">
-                        <label for="entry_428225658" class="form-label" style="color: black; font-family: sans-serif;">College Name</label>
+                        <label for="entry_428225658" class="form-label" style="color: black; font-family: sans-serif;">Member-1 Name</label>
                         <input type="text" class="form-control" id="inputAddress" name="entry_428225658">
                       </div>
                       <br><br>
-                      <div class="col-12">
-                        <label for="entry_677054350" class="form-label" style="color: black; font-family: sans-serif;">Year Of Study</label>
-                        <input type="text" class="form-control" id="inputAddress2" name="entry_677054350">
+                      <div class="col-md-6">
+                        <label for="entry_677054350" class="form-label" style="color: black; font-family: sans-serif;">Member-1 Whatsapp no.</label>
+                        <input type="number" class="form-control" id="inputAddress2" name="entry_677054350">
                       </div>
                       <div class="col-md-6">
-                        <label for="entry_2072351718" class="form-label" style="color: black; font-family: sans-serif;">Email</label>
+                        <label for="entry_2072351718" class="form-label" style="color: black; font-family: sans-serif;">Member-1 Email</label>
                         <input type="email" class="form-control" id="inputCity" name="entry_2072351718">
                       </div>
-                      <div class="col-md-4"></div>
-                      <div class="col-md-2"></div>
+                      <div class="col-12">
+                        <label for="entry_2071965360" class="form-label" style="color: black; font-family: sans-serif;">Member-2 Name</label>
+                        <input type="text" class="form-control" id="inputAddress" name="entry_2071965360">
+                      </div>
+                      <br><br>
+                      <div class="col-md-6">
+                        <label for="entry_798667822" class="form-label" style="color: black; font-family: sans-serif;">Member-2 Whatsapp no.</label>
+                        <input type="number" class="form-control" id="inputAddress2" name="entry_798667822">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="entry_1341425864" class="form-label" style="color: black; font-family: sans-serif;">Member-2 Email</label>
+                        <input type="email" class="form-control" id="inputCity" name="entry_1341425864">
+                      </div>
                       <br><br>
                       <div class="col-12">
                         <button type="submit" class="btn btn-primary" style="background: rgb(0,0,0); color: white; font-family: sans-serif;">Submit</button>
@@ -145,8 +83,8 @@
               </div>
             </div>
           </div>
+          <div class="col-md-3"></div>
         </div>
-      </div>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
